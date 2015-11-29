@@ -16,25 +16,25 @@ public class PlayerController : MonoBehaviour {
         float vertical = Input.GetAxis("Vertical");
         transform.Translate(Vector3.right * horizontal * (Time.deltaTime * speed));
         transform.Translate(Vector3.forward * vertical * (Time.deltaTime * speed));
-
-        if (Input.GetKeyDown("joystick button 0"))
-        {
-            Debug.Log("Button 0");
-        }
-
-        if (Input.GetKeyDown("joystick button 1"))
-        {
-            Debug.Log("Button 1");
-        }
-
-        if (Input.GetKeyDown("joystick button 2"))
-        {
-            Debug.Log("Button 2");
-        }
-
-        if (Input.GetKeyDown("joystick button 3"))
-        {
-            Debug.Log("Button 3");
-        }
     }
+
+    /*if (Input.GetKeyDown("joystick button 0"))
+     {
+         Debug.Log("Button 0");
+     }
+
+     if (Input.GetKeyDown("joystick button 1"))
+     {
+         Debug.Log("Button 1");
+     }
+
+     if (Input.GetKeyDown("joystick button 2"))
+     {
+         Debug.Log("Button 2");
+     }
+
+     if (Input.GetKeyDown("joystick button 3"))
+     {
+         Debug.Log("Button 3");
+     }*/
 }

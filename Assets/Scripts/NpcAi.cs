@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NPC_AI : MonoBehaviour {
+public class NpcAi : MonoBehaviour {
 
     public Color color;
 

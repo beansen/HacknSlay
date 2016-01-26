@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 	/*if (Input.GetKeyDown("joystick button 0"))
-	 {
+	 {„
 		 Debug.Log("Button 0");
 	 }
 
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 		 Debug.Log("Button 1");
 	 }
 
-	 if (Input.GetKeyDown("joystick button 2"))
+	 if (Input.GetKeyDown("joystick button 2"))„
 	 {
 		 Debug.Log("Button 2");
 	 }

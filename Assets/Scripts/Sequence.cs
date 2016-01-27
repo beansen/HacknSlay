@@ -9,16 +9,12 @@ public class Sequence : Node
 
 
 	public override void ExecuteNode() {
-		bool sequenceSuccesful = true;
-
 		for (int i = 0; i < childNodes.Length; i++) {
 			childNodes[i].ExecuteNode();
-			if (!childNodes[i].success) {
-				sequenceSuccesful = false;
+			if (childNodes[i].state == NodeState.FAILURE) {
+				state = NodeState.FAILURE;
 				break;
 			}
 		}
-
-		success = sequenceSuccesful;
 	}
 }
